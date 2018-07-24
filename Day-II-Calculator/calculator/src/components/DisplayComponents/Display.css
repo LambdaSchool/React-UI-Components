@@ -1,0 +1,18 @@
+.display {
+  width: 448px;
+  height: 125px;
+  background-color: black;
+  color: white;
+  border: 2px darkgray solid;
+  border-bottom: 0px;
+  font-size: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.display p {
+  padding-right: 13px;
+  padding-top: 13px;
+}

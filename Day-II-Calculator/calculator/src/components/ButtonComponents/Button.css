@@ -1,0 +1,85 @@
+.buttons {
+  margin: 0 auto;
+  width: 450px;
+  display: flex;
+  height: 465px;
+  border: 1px darkgray solid;
+
+}
+
+.buttons .number-buttons {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  width: 370px;
+  height: 465px;
+  justify-content: space-between;
+  border: 1px darkgray solid;
+
+}
+
+.number-buttons .toprow {
+  align-self: center;
+  font-size: 40px;
+  height: 95px;
+  width: 335px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px darkgray solid;
+}
+
+.number-buttons .row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  height: 95px;
+}
+
+.row .small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110.5px;
+  border: 1px darkgray solid;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.number-buttons .botrow {
+  align-self: center;
+  height: 95px;
+  width: 335px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px darkgray solid;
+}
+
+.buttons .action-buttons {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 467.5px;
+  background-color: #A0001E;
+  color: white;
+}
+
+.buttons .action-buttons .action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  border: 1px darkgray solid;
+  height: 100px;
+}
+.action-buttons .action-button:nth-child(1) {
+  height: 104px;
+}
+
+.action-buttons .action-button:nth-child(5) {
+  height: 104px;
+}
