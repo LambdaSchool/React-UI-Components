@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.logo {
+  width: 8%;
+  object-fit: contain;
+  margin-right: 2%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.title p {
+  padding-left: 1%;
+  color: gray;
+  font-size: 1.4rem;
+}
+
+.content {
+  width: 90%;
+}

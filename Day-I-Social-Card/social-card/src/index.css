@@ -1,5 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 3%;
+  width: 100%;
+}
+
+.content {
+  width: 90%;
 }

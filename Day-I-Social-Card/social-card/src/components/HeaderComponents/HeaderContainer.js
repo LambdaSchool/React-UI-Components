@@ -9,10 +9,13 @@ import HeaderContent from './HeaderContent';
 
 const HeaderContainer = () => {
   return (
-  <div>
+  <div className="header">
     <ImageThumbnail />
-    <HeaderTitle />
-    <HeaderContent />
+    <div className="content">
+      <HeaderTitle />
+      <HeaderContent />
+    </div>
+    
   </div>
 
   ); 
