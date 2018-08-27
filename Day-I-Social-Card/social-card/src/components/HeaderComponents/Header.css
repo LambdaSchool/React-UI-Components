@@ -16,13 +16,13 @@
 .title {
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .title p {
   padding-left: 1%;
   color: gray;
   font-size: 1.4rem;
+  width: 50%;
 }
 
 .content {

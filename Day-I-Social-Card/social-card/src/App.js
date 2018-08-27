@@ -9,9 +9,7 @@ const App = () => {
       <HeaderContainer />
       <CardContainer />
     </div>
-  );
-  
-    
+  ); 
 };
 
 export default App;
