@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 14px;
+  color: gray;
+  font-weight: lighter;
+}
+
+
+.header {
+  max-width: 590px;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid purple; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* border: 1px solid blue; */
+}
+
+.header-content {
+  margin: 0 5% 0 0;
+}
+
+
+.thumbnail {
+  width: 50px;
+  margin-right: 5%;
+  /* border: 1px solid green; */
+}
+
+.header-title {
+  display: flex;
+}
+
+.header-title h2 {
+  margin-left: 1%;
+}

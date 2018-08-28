@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+.card-container {
+  max-width: 590px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.banner {
+  max-width: 590px;
+  width: 540px;
+  margin-left: 4.6%;
+}
+
+.card-content {
+  margin-left: 8.6%;
+}
+
+.card-content h1 {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.card-content p {
+  color: black;
+  text-decoration: none;
+}
