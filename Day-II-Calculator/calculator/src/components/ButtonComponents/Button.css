@@ -1,0 +1,25 @@
+.button {
+    padding: 25px 44.8px;
+    border: 1px solid black;
+}
+
+.action {
+    padding: 25px 0;
+    border: 1px solid gray;
+}
+
+.right {
+    width: 25%;
+    background: darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.operator {
+    color: white;
+    padding: 15px 10px;
+    font-size: 6rem;
+    text-align: center;
+    border: 1px solid gray;
+}

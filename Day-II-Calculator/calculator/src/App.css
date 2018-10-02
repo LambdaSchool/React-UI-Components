@@ -1,0 +1,29 @@
+.left {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.zero-clear {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.bottom {
+    display: flex;
+}
+
+.top {
+    text-align: right;
+    padding: 30px;
+    background: black;
+    color: white;
+    font-size: 8rem;
+}
