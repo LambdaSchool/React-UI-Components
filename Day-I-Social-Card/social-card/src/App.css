@@ -1,4 +1,14 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
-  IF you'd like to attempt to use less you'll have to research how to do this with Create React App
-*/
+.app-container {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  padding: 12px 2px;
+  max-width: 590px;
+  width: 100%;
+}
+
+.app-container:hover {
+  background-color: #f5f8fa;
+}

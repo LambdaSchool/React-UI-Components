@@ -1,0 +1,47 @@
+.clear-button {
+  border: 1px solid grey;
+  display: flex;
+  font-size: 4.4rem;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 340px;
+}
+
+.number-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.4rem;
+  font-weight: bold;
+  border: 1px solid grey;
+  height: 92px;
+  width: 112px;
+}
+
+.large-number-button {
+  height: 92px;
+  width: 332px;
+}
+
+.number-button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.action-button {
+  background-color: #a0001e;
+  border: 1px solid grey;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 4.4rem;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 112px;
+}
+
+.action-button-container {
+  display: flex;
+  flex-flow: column wrap;
+}

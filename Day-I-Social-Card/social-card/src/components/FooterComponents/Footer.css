@@ -1,0 +1,23 @@
+.footer-container {
+  color: #7e8e9d;
+  display: flex;
+  font-size: 1.6rem;
+  padding-left: 65px;
+  padding-top: 20px;
+}
+
+.footer-comment {
+  margin-right: 60px;
+}
+
+.footer-retweet {
+  margin-right: 60px;
+}
+
+.footer-favorite {
+  margin-right: 60px;
+}
+
+.footer-email {
+  margin-right: 60px;
+}
