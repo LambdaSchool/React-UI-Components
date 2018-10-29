@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 15px 11.5%;
+  width: 44%;
+}
+
+svg {
+  cursor: pointer;
+}
+
+#message:hover {
+  stroke: #1da1f2;
+}
+
+.retweet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 16%;
+  user-select: none;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #808080;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 16%;
+  user-select: none;
+}
+
+#mail:hover {
+  stroke: #ff3144;
+}

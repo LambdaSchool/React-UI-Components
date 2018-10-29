@@ -1,1 +1,18 @@
-/* All styles for your Card Components live here */
+.card {
+  margin-left: 11.5%;
+  width: 85.75%;
+}
+
+.banner-img img {
+  border-radius: 5px 5px 0 0;
+  height: 250px;
+  width: 100%;
+}
+
+.card-content {
+  border-left: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+	border-radius: 0 0 5px 5px;
+	padding: 13px 15px 15px 15px;
+}

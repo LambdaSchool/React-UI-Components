@@ -1,0 +1,70 @@
+.number-buttons {
+  display: grid;
+  grid-area: number;
+  grid-template-columns: 110.5px 110.5px 110.5px;
+  grid-template-rows: 94px 94px 94px 93px;
+  border-color: #979797;
+  border-style: solid;
+	border-width: 0 0 2px 2px;
+	cursor: pointer;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.clear, .seven, .eight, .nine, .four, .five, .six, .one, .two, .three, .zero {
+	border-color: #979797;
+	border-style: solid;
+	line-height: 93px;
+	text-align: center;
+}
+
+.clear {
+  grid-column-end: span 3;
+  grid-row-start: 1;
+	font-weight: 300;
+	border-width: 0px 2px 2px 0;
+  width: 332px;
+}
+
+.seven, .eight, .nine, .four, .five, .six {
+	border-width: 0px 2px 2px 0;
+  width: 111px;
+}
+
+.one, .two, .three {
+	border-width: 0px 2px 0 0;
+  width: 111px;
+}
+
+.zero {
+  grid-column-end: span 3;
+	grid-row-start: 5;
+  border-width: 2px 2px 0 0;
+  width: 332px;
+}
+
+.operator-buttons {
+	display: grid;
+  grid-area: ops;
+  grid-template-columns: 118px;
+  grid-template-rows: 94px 94px 94px 94px;
+  border-color: #979797;
+  border-style: solid;
+	border-width: 0 2px 2px 0;
+	cursor: pointer;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.divide, .multiply, .subtract, .add, .equal {
+	background-color: #a0001e;
+	border-color: #979797;
+	border-style: solid;
+	border-width: 0 0 2px 0;
+	text-align: center;
+  color: white;
+  font-size: 6.5rem;
+	font-weight: 300;
+	line-height: 92px;
+	width: 118px;
+}

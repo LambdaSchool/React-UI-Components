@@ -1,0 +1,16 @@
+.calculator-display {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	grid-area: display;
+	background-color: #222222;
+	border: 2px solid #979797;
+	height: 123px;
+}
+
+.display-number {
+	color: white;
+	font-size: 7.2rem;
+	font-weight: 300;
+	margin: 3.5% 3% 0 0;
+}

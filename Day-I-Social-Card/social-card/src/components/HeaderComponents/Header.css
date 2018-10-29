@@ -1,1 +1,22 @@
-/* All styles for your header Components live here */
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px auto 13px auto;
+	width: 96.5%;
+}
+
+.header-content {
+	margin-left: 10px;
+	width: 95%;
+}
+
+.thumbnail {
+	height: 50px;
+	width: 50px;
+}
+
+.thumbnail img {
+	border-radius: 50%;
+	height: auto;
+	width: 100%;
+}

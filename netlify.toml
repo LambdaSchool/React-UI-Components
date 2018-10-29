@@ -1,0 +1,3 @@
+[build]
+	base="Day-I-Social-Card/social-card"
+	publish="Day-I-Social-Card/social-card/build"
