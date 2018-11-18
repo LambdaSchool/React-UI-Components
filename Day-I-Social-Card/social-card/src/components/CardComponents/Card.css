@@ -1,1 +1,45 @@
 /* All styles for your Card Components live here */
+
+
+.cardContainer {
+  width: 100%;
+}
+
+.cardBanner {
+  background-image: url(https://ibin.co/3wnC6SgIOJud.png);
+  width: 85%;
+  height: 254px;
+  background-position: center;
+  background-size: 150%;
+  margin-left: 68px;
+  margin-top: 3px;
+  border-radius: 5px 5px 0 0;
+}
+
+.descriptionContainer {
+  margin-left: 68px; 
+  margin-right: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 0 0 5px 5px;
+}
+
+.cardContainer > a {
+  text-decoration: none;
+  color: black;
+}
+
+.descriptionContainer > h2 {
+  font-size: 14px;
+  padding-left: 14px;
+}
+
+.descriptionContainer > p {
+  padding-left: 14px;
+  font-size: 12px;
+  padding-right: 15px;
+  padding-bottom: 0;
+}
+
+.reference {
+  color: grey;
+}

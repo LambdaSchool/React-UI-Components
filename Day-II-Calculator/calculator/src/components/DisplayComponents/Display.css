@@ -1,0 +1,22 @@
+.display {
+  text-align: right;
+  padding: 55px 10px;
+  font-size: 80px;
+  background: #222222;
+  color: white;
+  border: 1px solid #979797;
+  flex: 1;
+  line-height: 110px;
+}
+
+.auto-scaling-text {
+  display: inline-block;
+}
+
+.display .auto-scaling-text {
+  padding: 0 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: right;
+}

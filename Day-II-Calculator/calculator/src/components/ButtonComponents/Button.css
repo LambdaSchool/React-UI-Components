@@ -1,0 +1,47 @@
+.btnContainer {
+  display: flex;
+}
+
+.numberSide {
+  flex: 3;
+}
+
+.operationsSide {
+  flex: 1;
+}
+
+
+.numberBtn {
+  width: 33.333334%;
+  border: 1px solid #979797;
+  background: white;
+  padding: .9rem 0;
+  color: #222;
+  font-size: 45px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.numberBtn:hover {
+  background: #979797;
+  color: #a0001e;
+  border: 1px solid #a0001e;
+}
+
+.numberBtn:active {
+  transform: scale(1.01);
+}
+
+.bgRed {
+  background: #a0001e;
+  width: 100%;
+  color: white;
+}
+
+.wide {
+  width: 100%;
+}
+
+.narrow {
+  font-weight: normal;
+}

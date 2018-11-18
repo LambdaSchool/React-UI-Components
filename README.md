@@ -4,10 +4,10 @@
 
 ## Initializing the application.
 
-- This project was put together using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
-- Each project has it's own `package.json` file in it, we'll chat more about this later. So it's already set up for you to install some dependencies that are needed for you to be able to work within the React Ecosystem.
-- To start the `Social Card` project, you'll need to cd into `Day-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
-- Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
+[ x ] - This project was put together using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
+[ x ] - Each project has it's own `package.json` file in it, we'll chat more about this later. So it's already set up for you to install some dependencies that are needed for you to be able to work within the React Ecosystem.
+[ x ] - To start the `Social Card` project, you'll need to cd into `Day-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
+[ x ] - Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
 ## Instructions
@@ -37,23 +37,23 @@
 
 #### Day 1 MVP requirements
 
-- Create a `<HeaderContainer />` container component that will hold your header components.
+[ x ] - Create a `<HeaderContainer />` container component that will hold your header components.
 
-  - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
-  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  [ x ] - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
+  [ x ] - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  [ x ] - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
-- Create a `<CardContainer/ >` container component that will hold your card components.
-  - Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
-  - Create a `<CardContent />` component that displays the card copy provided.
-  - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+[ x ] - Create a `<CardContainer/ >` container component that will hold your card components.
+  [ x ] - Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
+  [ x ] - Create a `<CardContent />` component that displays the card copy provided.
+  [ x ] - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
 #### Day 1 Stretch Problems
 
-- Create a `<Footer/>` component that pulls in the icons and displays them properly.
-  - Build out the functionality so that a user can click on the icons and have them react to events.
-- Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
-- Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be today's date.
+[ x ] - Create a `<Footer/>` component that pulls in the icons and displays them properly.
+  [  ] - Build out the functionality so that a user can click on the icons and have them react to events.
+[ x ] - Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
+[  ] - Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be today's date.
 
 ## _Day II - React Calculator_
 
@@ -65,25 +65,25 @@
 
 ![Calculator](calculator-component.png)
 
-- **BEFORE YOU DO ANYTHING ELSE READ [This](https://reactjs.org/docs/thinking-in-react.html)**
-- This is the time to stop and break down this image in terms of components. Each container on the screen should give you an idea of what your components should be. You're now about to begin your journey into learning how to think in React.
+[ x ] - **BEFORE YOU DO ANYTHING ELSE READ [This](https://reactjs.org/docs/thinking-in-react.html)**
+[ x ] - This is the time to stop and break down this image in terms of components. Each container on the screen should give you an idea of what your components should be. You're now about to begin your journey into learning how to think in React.
 
 #### Day 2 MVP requirements
 
-- Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
-  - Example your component should be able to render a dynamic prop called text:
-  - Your button button should also be able to accept dynamic props `buttonStyle` for styling
+[ x ] - Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
+  [ x ] - Example your component should be able to render a dynamic prop called text:
+  [ x ] - Your button button should also be able to accept dynamic props `buttonStyle` for styling
 
 ```js
 <button className={props.buttonStyle}>{props.text}</button>
 ```
 
-- Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
-- Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
+[ x ] - Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
+[ x ] - Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
 
 #### Day 2 Stretch Problems
 
-- Re-factor your `App.js` file to be a classical component that can hold state on it's constructor. (There is some documentation in training kit on how this works).
+[  ] - Re-factor your `App.js` file to be a classical component that can hold state on it's constructor. (There is some documentation in training kit on how this works).
   - On your state object be sure to include a property for the `total` that can be passed down to your `<CalculatorDisplay />` component.
 - Create some `handler functions` that can take in some information from an, `onClick` and use that information to update the `total` on the App state.
 

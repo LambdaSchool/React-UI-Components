@@ -1,0 +1,31 @@
+.footerContainer {
+  padding: 15px 0 0 68px;
+  border-bottom: 1px solid grey;
+}
+
+.far, .fas {
+  color: gray;
+  cursor: pointer;
+}
+
+.far:not(:first-of-type), .fas {
+  margin-left: 65px;
+}
+
+.footerContainer > p {
+  display: inline-block;
+  margin-top: 0;
+  font-size: 12px;
+  padding-left: 10px;
+  margin-right: -15px;
+  color: gray;
+  pointer-events: none;
+}
+
+.fa-comment {  /* mirrors icon...the font awesome comment cloud was facing the wrong direction */
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
