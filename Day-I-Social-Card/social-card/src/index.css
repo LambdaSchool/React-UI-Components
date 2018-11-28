@@ -1,5 +1,78 @@
+html {
+  font-size: 62.5%;
+}
 body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.6rem;
+}
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 3%;
+  width: 100%;
+}
+.content {
+  width: 90%;
+}
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.header .logo {
+  width: 8%;
+  object-fit: contain;
+  margin-right: 2%;
+}
+.content {
+  width: 90%;
+}
+.content .title {
+  display: flex;
+  align-items: center;
+}
+.content .title p {
+  padding-left: 1%;
+  color: gray;
+  font-size: 1.4rem;
+  width: 50%;
+}
+.cards {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.cards .card {
+  text-decoration: none;
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.cards .card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cards .card .right {
+  width: 100%;
+  padding: 20px;
+  line-height: 1.5;
+}
+.cards .card .site {
+  color: gray;
 }
