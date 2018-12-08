@@ -1,0 +1,21 @@
+.calculator-display {
+  border: 1px solid gray;
+  max-width: 458px;
+  width: 100%;
+  height: 125px;
+
+  color: white;
+  background-color: black;
+  font-size: 7.2rem;
+
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.calculator-display span {
+  margin-right: 2.62%;
+  margin-top: 7px;
+}

@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+header {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+header img {
+  display: inline;
+  width: 8.33%;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.display-name {
+  display: inline;
+  font-size: 1.4rem;
+}
+
+.user-name {
+  display: inline;
+  font-size: 1.2rem;
+  color: #a7a7a7;
+  margin: auto 5px;
+}
+
+.header-content {
+  font-size: 1.4rem;
+  width: 91%;
+}
+
+time {
+  font-size: 1.2rem;
+  color: #a7a7a7;
+
+}

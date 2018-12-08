@@ -1,0 +1,24 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  max-width: 458px;
+  width: 100%;
+}
+
+.button-pad {
+  display: flex;
+}
+
+.numbers {
+  max-width: 343.5;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.functions {
+  display: flex;
+  flex-direction: column;
+  max-width: 114.5px;
+  width: 100%;
+}

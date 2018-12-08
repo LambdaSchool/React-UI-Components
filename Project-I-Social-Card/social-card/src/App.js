@@ -1,24 +1,45 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import CardContainer from "./components/CardComponents/CardContainer";
+import Footer from "./components/FooterComponents/Footer";
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Social Card!</h3>
-      <p>
-        Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
-        away building components. You'll need to make sure you include your
-        components that you build in this file to watch your app come to life
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
-};
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      likes: 0,
+      shares: 0
+    };
+  }
+
+  likeClick = event => {
+    event.preventDefault();
+    let plusLikes = this.state.likes;
+    plusLikes++;
+    this.setState({ likes: plusLikes });
+  };
+
+  shareClick = event => {
+    event.preventDefault();
+    let plusShares = this.state.shares;
+    plusShares += 1;
+    this.setState({ shares: plusShares });
+  };
+
+  render() {
+    return (
+      <div className="app-container">
+        <HeaderContainer />
+        <CardContainer />
+        <Footer
+          shareHandler={this.shareClick}
+          likeHandler={this.likeClick}
+          numbers={this.state}
+        />
+      </div>
+    );
+  }
+}
 
 export default App;

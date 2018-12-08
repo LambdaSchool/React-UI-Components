@@ -1,0 +1,23 @@
+footer {
+  font-size: 1.8rem;
+  color: grey;
+  display: flex;
+  max-width: 600px;
+  width: 40%;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 11.66%;
+}
+
+.share-icon:hover {
+  color: dodgerblue;
+}
+
+.heart-icon:hover {
+  color: red;
+}
+
+.footer-counter {
+  margin-left: 10px;
+  font-size: 1.6rem;
+}
