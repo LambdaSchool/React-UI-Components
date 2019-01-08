@@ -1,1 +1,34 @@
 /* All styles for your Card Components live here */
+
+.CardBanner img {
+  margin: 0 7%;
+  max-width: 60%;
+  border-radius: 5px;
+}
+
+.CardContainer {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.CardContent {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.CardText {
+  font-size: 0.8rem;
+  max-width: 100%;
+  padding-right: 35%;
+}
+
+.CardTitle h1 {
+  font-size: 0.9rem;
+  line-height: 0;
+}
+
+.CardLink {
+  font-size: 0.75rem;
+  font-style: normal;
+  color: lightgray;
+}

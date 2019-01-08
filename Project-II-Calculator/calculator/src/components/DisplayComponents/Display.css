@@ -1,0 +1,10 @@
+#display {
+  width: 100%;
+  text-align: right;
+  font-size: 3.8rem;
+  line-height: 0.6rem;
+  padding-right: 20px;
+  background-color: black;
+  color: white;
+  font-weight: light;
+}

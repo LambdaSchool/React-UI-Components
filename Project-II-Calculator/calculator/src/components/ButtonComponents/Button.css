@@ -1,0 +1,18 @@
+.wide {
+  border: 1px solid grey;
+  width: 75%;
+}
+.single {
+  border: 0.5px solid grey;
+  width: 25%;
+}
+
+.red {
+  background-color: #931c25;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}

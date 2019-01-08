@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+  display: flex;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 590px;
+  margin: 10px 5px;
+}
+
+.HeaderTitle {
+  margin-left: 12px;
+}
+
+.HeaderTitle h1 {
+  font-size: 0.9rem;
+  line-height: 0;
+}
+
+.HeaderTitle h1 em {
+  font-size: 0.75rem;
+  font-style: normal;
+  color: lightgray;
+}
+
+.HeaderContent {
+  margin-left: 12px;
+}
+
+.ImageThumbnail img {
+  border-radius: 50%;
+  width: 45px;
+}
